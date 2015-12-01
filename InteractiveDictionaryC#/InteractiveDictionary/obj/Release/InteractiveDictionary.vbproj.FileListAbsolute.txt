@@ -1,0 +1,9 @@
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.exe.config
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.exe
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.pdb
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.xml
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.Resources.resources
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.vbproj.GenerateResource.Cache
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.exe
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.xml
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.pdb

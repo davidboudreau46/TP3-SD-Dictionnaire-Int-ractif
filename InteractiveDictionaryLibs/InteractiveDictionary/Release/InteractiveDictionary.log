@@ -1,0 +1,14 @@
+﻿La génération a démarré 01/déc./2015 10:10:21.
+     1>Projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\InteractiveDictionary\InteractiveDictionary.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\InteractiveDictionary.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt InteractiveDictiopnary.cpp
+         InteractiveDictiopnary.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\InteractiveDictionary.lib" /NOLOGO /LTCG Release\InteractiveDictiopnary.obj
+         Release\stdafx.obj
+         InteractiveDictionary.vcxproj -> C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\InteractiveDictionary.lib
+     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\InteractiveDictionary\InteractiveDictionary.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.22

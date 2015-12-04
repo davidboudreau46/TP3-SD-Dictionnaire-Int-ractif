@@ -15,7 +15,7 @@ namespace InteractiveDictionary
         public InteractiveDictionary()
         {
             InitializeComponent();
-            InteractiveDictionaryCLR interac = new InteractiveDictionary();
+            InteractiveDictionary interac = new InteractiveDictionary();
             int test = interac.returnTest();
         }
 

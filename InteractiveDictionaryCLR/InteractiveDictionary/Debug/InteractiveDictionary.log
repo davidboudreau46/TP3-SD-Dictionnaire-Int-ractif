@@ -1,4 +1,4 @@
-﻿La génération a démarré 04/déc./2015 16:45:48.
+﻿La génération a démarré 04/déc./2015 18:30:02.
      1>Projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionary\InteractiveDictionary.vcxproj" sur le nœud 2 (Build cible(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (InteractiveDictionary.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -10,9 +10,10 @@
          Debug\InteractiveDictionaryCLR.obj
          Debug\Stdafx.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-     1>LINK : fatal error LNK1104: impossible d'ouvrir le fichier '..\..\InteractiveDictionaryLibs\Debug\InteractiveDictionaryLibs.lib'
-     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionary\InteractiveDictionary.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+     1>InteractiveDictionaryLibs.lib(InteractiveDictionaryLibs.obj) : warning LNK4075: ' /EDITANDCONTINUE' ignorÚ Ó cause de la spÚcification '/OPT:LBR'
+         InteractiveDictionary.vcxproj -> C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\Debug\InteractiveDictionaryCLR.dll
+     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionary\InteractiveDictionary.vcxproj" terminée (Build cible(s)).
 
-ÉCHEC de la build.
+La génération a réussi.
 
-Temps écoulé 00:00:00.56
+Temps écoulé 00:00:01.44

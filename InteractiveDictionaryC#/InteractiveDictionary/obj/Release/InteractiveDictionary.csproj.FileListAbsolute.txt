@@ -1,0 +1,1 @@
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.exe.config

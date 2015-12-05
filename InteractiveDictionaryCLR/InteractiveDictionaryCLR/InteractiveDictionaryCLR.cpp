@@ -3,6 +3,7 @@
 #include "stdafx.h"
 #include "..\..\InteractiveDictionaryLibs\InteractiveDictionaryLibs\InteractiveDictionaryLibs.h"
 #include "InteractiveDictionaryCLR.h"
+#include <stdio.h>
 
 //Constructeur
 InteractiveDictionaryCLR::InteractiveDictionaryCLR::InteractiveDictionaryCLR(){
@@ -17,6 +18,6 @@ void InteractiveDictionaryCLR::InteractiveDictionaryCLR::test(){
 	_test = _InteractiveDictionary->getTest();
 }
 
-int InteractiveDictionaryCLR::InteractiveDictionaryCLR::returnTest(){
+char InteractiveDictionaryCLR::InteractiveDictionaryCLR::returnTest(){
 	return _test;
 }

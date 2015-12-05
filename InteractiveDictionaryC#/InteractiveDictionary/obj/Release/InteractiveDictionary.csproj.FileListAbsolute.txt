@@ -1,1 +1,11 @@
 C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.exe.config
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionary.pdb
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.About.resources
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.InteractiveDictionary.resources
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.Properties.Resources.resources
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.csproj.GenerateResource.Cache
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.exe
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.pdb
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\obj\Release\InteractiveDictionary.csprojResolveAssemblyReference.cache
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionaryCLR.dll
+C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryC#\InteractiveDictionary\bin\Release\InteractiveDictionaryCLR.pdb

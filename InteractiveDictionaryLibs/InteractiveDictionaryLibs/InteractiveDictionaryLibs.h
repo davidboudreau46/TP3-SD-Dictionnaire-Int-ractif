@@ -4,6 +4,6 @@ class InteractiveDictionaryLibs
 public:
 	InteractiveDictionaryLibs();
 	~InteractiveDictionaryLibs();
-	int getTest();
+	char getTest();
 };
 

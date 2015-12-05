@@ -38,6 +38,9 @@
     <Reference Include="InteractiveDictionary">
       <HintPath>..\..\InteractiveDictionaryCLR\Release\InteractiveDictionary.dll</HintPath>
     </Reference>
+    <Reference Include="InteractiveDictionaryCLR">
+      <HintPath>..\..\InteractiveDictionaryCLR\Release\InteractiveDictionaryCLR.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -57,7 +60,9 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="InteractiveDictionary.cs" />
+    <Compile Include="InteractiveDictionary.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InteractiveDictionary.Designer.cs">
       <DependentUpon>InteractiveDictionary.cs</DependentUpon>
     </Compile>

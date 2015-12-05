@@ -11,7 +11,8 @@ InteractiveDictionaryLibs::~InteractiveDictionaryLibs()
 {
 }
 
-int InteractiveDictionaryLibs::getTest()
+char InteractiveDictionaryLibs::getTest()
 {
-	return 5;
+	char test = 'Z';
+	return test;
 }

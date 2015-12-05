@@ -14,11 +14,11 @@ namespace InteractiveDictionaryCLR {
 		//~­InteractiveDictionaryCLR();
 
 		void test();
-		int returnTest();
+		char returnTest();
 		// TODO: ajoutez ici vos méthodes pour cette classe.
 
 	private:
 		InteractiveDictionaryLibs* _InteractiveDictionary;
-		int _test;
+		char _test;
 	};
 }

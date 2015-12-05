@@ -1,26 +1,17 @@
-﻿La génération a démarré 04/déc./2015 19:10:49.
-     1>Projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionaryCLR\InteractiveDictionaryCLR.vcxproj" sur le nœud 2 (Rebuild cible(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\InteractiveDictionaryCLR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
-         Stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\InteractiveDictionaryCLR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp InteractiveDictionaryCLR.cpp
-         AssemblyInfo.cpp
-         InteractiveDictionaryCLR.cpp
-         Génération de code en cours...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Étienne\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
-       Link:
+﻿La génération a démarré 04/déc./2015 20:34:27.
+     1>Projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionaryCLR\InteractiveDictionaryCLR.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\Debug\InteractiveDictionaryCLR.dll" /INCREMENTAL /NOLOGO ..\..\InteractiveDictionaryLibs\Debug\InteractiveDictionaryLibs.lib ..\..\InteractiveDictionaryLibs\Debug\AVLTree.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\Debug\InteractiveDictionaryCLR.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
          Debug\AssemblyInfo.obj
          Debug\InteractiveDictionaryCLR.obj
          Debug\Stdafx.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
      1>InteractiveDictionaryLibs.lib(InteractiveDictionaryLibs.obj) : warning LNK4075: ' /EDITANDCONTINUE' ignorÚ Ó cause de la spÚcification '/OPT:LBR'
-         InteractiveDictionaryCLR.vcxproj -> C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\Debug\InteractiveDictionaryCLR.dll
-     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionaryCLR\InteractiveDictionaryCLR.vcxproj" terminée (Rebuild cible(s)).
+     1>InteractiveDictionaryCLR.obj : error LNK2028: jeton non rÚsolu (0A000006) "public: int __thiscall InteractiveDictionaryLibs::getTest(void)" (?getTest@InteractiveDictionaryLibs@@$$FQAEHXZ) rÚfÚrencÚ dans la fonction "public: void __clrcall InteractiveDictionaryCLR::InteractiveDictionaryCLR::test(void)" (?test@InteractiveDictionaryCLR@1@$$FQ$AAMXXZ)
+     1>InteractiveDictionaryCLR.obj : error LNK2019: symbole externe non rÚsolu "public: int __thiscall InteractiveDictionaryLibs::getTest(void)" (?getTest@InteractiveDictionaryLibs@@$$FQAEHXZ) rÚfÚrencÚ dans la fonction "public: void __clrcall InteractiveDictionaryCLR::InteractiveDictionaryCLR::test(void)" (?test@InteractiveDictionaryCLR@1@$$FQ$AAMXXZ)
+     1>C:\Users\╔tienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\Debug\InteractiveDictionaryCLR.dll : fatal error LNK1120: 2 externes non rÚsolus
+     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryCLR\InteractiveDictionaryCLR\InteractiveDictionaryCLR.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
 
-La génération a réussi.
+ÉCHEC de la build.
 
-Temps écoulé 00:00:01.57
+Temps écoulé 00:00:00.38

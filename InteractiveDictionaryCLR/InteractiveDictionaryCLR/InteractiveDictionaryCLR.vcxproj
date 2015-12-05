@@ -67,7 +67,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>..\..\InteractiveDictionaryLibs\Debug\InteractiveDictionaryLibs.lib;..\..\InteractiveDictionaryLibs\Debug\AVLTree.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\..\InteractiveDictionaryLibs\Release\InteractiveDictionaryLibs.lib;..\..\InteractiveDictionaryLibs\Release\AVLTree.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

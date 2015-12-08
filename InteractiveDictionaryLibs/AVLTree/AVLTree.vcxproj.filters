@@ -24,7 +24,10 @@
     <ClInclude Include="TreeElement.h">
       <Filter>Fichiers d%27en-tête\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="Tree.h">
+    <ClInclude Include="add_element_already_existing.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +35,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Fichiers de ressources</Filter>
     </ClCompile>
-    <ClCompile Include="Tree.cpp">
+    <ClCompile Include="add_element_already_existing.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLTree.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

@@ -71,16 +71,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="add_element_already_existing.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Tree.h" />
+    <ClInclude Include="AVLTree.h" />
     <ClInclude Include="TreeElement.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="add_element_already_existing.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="AVLTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

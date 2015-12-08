@@ -5,11 +5,11 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteractiveDictionaryLibs", "InteractiveDictionaryLibs\InteractiveDictionaryLibs.vcxproj", "{BBCFBF36-EA6F-4189-86A0-FA27DFFBCA0F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteractiveDictionaryLibsTest", "InteractiveDictionaryLibsTest\InteractiveDictionaryLibsTest.vcxproj", "{9757CB21-B840-49A6-B057-9F322E543DD6}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVLTree", "AVLTree\AVLTree.vcxproj", "{19103755-E181-4DBE-AFED-F28CE859714B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVLTreeTest", "AVLTreeTest\AVLTreeTest.vcxproj", "{B7938A07-BE0A-47CC-91F0-7DEF35FD2FB3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVLTreeTest", "AVLTreeTest\AVLTreeTest.vcxproj", "{886FEC19-CCE5-47DD-B0FB-B9B98C972D4C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InteractiveDictionaryTest", "InteractiveDictionaryTest\InteractiveDictionaryTest.vcxproj", "{1C37909B-C6D6-4F10-B00B-95277B979EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{BBCFBF36-EA6F-4189-86A0-FA27DFFBCA0F}.Debug|Win32.Build.0 = Debug|Win32
 		{BBCFBF36-EA6F-4189-86A0-FA27DFFBCA0F}.Release|Win32.ActiveCfg = Release|Win32
 		{BBCFBF36-EA6F-4189-86A0-FA27DFFBCA0F}.Release|Win32.Build.0 = Release|Win32
-		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.ActiveCfg = Debug|Win32
-		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.Build.0 = Debug|Win32
-		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.ActiveCfg = Release|Win32
-		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.Build.0 = Release|Win32
 		{19103755-E181-4DBE-AFED-F28CE859714B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{19103755-E181-4DBE-AFED-F28CE859714B}.Debug|Win32.Build.0 = Debug|Win32
 		{19103755-E181-4DBE-AFED-F28CE859714B}.Release|Win32.ActiveCfg = Release|Win32
 		{19103755-E181-4DBE-AFED-F28CE859714B}.Release|Win32.Build.0 = Release|Win32
-		{B7938A07-BE0A-47CC-91F0-7DEF35FD2FB3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{B7938A07-BE0A-47CC-91F0-7DEF35FD2FB3}.Debug|Win32.Build.0 = Debug|Win32
-		{B7938A07-BE0A-47CC-91F0-7DEF35FD2FB3}.Release|Win32.ActiveCfg = Release|Win32
-		{B7938A07-BE0A-47CC-91F0-7DEF35FD2FB3}.Release|Win32.Build.0 = Release|Win32
+		{886FEC19-CCE5-47DD-B0FB-B9B98C972D4C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{886FEC19-CCE5-47DD-B0FB-B9B98C972D4C}.Debug|Win32.Build.0 = Debug|Win32
+		{886FEC19-CCE5-47DD-B0FB-B9B98C972D4C}.Release|Win32.ActiveCfg = Release|Win32
+		{886FEC19-CCE5-47DD-B0FB-B9B98C972D4C}.Release|Win32.Build.0 = Release|Win32
+		{1C37909B-C6D6-4F10-B00B-95277B979EDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C37909B-C6D6-4F10-B00B-95277B979EDF}.Debug|Win32.Build.0 = Debug|Win32
+		{1C37909B-C6D6-4F10-B00B-95277B979EDF}.Release|Win32.ActiveCfg = Release|Win32
+		{1C37909B-C6D6-4F10-B00B-95277B979EDF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

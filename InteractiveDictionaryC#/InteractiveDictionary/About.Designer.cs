@@ -87,7 +87,6 @@
             // 
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = global::InteractiveDictionary.Properties.Resources.Dict21;
-            this.pictureBox1.InitialImage = global::InteractiveDictionary.Properties.Resources.Dict21;
             this.pictureBox1.Location = new System.Drawing.Point(13, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(153, 153);

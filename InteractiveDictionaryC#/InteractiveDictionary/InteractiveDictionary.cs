@@ -17,9 +17,9 @@ namespace InteractiveDictionary
             InitializeComponent();
             InteractiveDictionaryCLR.InteractiveDictionaryCLR interac = new InteractiveDictionaryCLR.InteractiveDictionaryCLR();
 
-            textBox1.SelectedText = string.Empty;
+            searchComboBox.SelectedText = string.Empty;
             char msg = (char)interac.returnTest();
-            textBox1.AppendText(msg.ToString());
+            searchComboBox.ValueMember = msg.ToString();
         }
 
         private void àProposToolStripMenuItem_Click(object sender, EventArgs e)
@@ -29,6 +29,16 @@ namespace InteractiveDictionary
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form.ActiveForm.Close();
+        }
+
+        private void searchComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

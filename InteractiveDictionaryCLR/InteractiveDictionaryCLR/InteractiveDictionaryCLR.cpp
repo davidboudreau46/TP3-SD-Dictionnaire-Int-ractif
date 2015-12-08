@@ -19,5 +19,5 @@ void InteractiveDictionaryCLR::InteractiveDictionaryCLR::test(){
 }
 
 char InteractiveDictionaryCLR::InteractiveDictionaryCLR::returnTest(){
-	return _test;
+	return _InteractiveDictionary->getTest();
 }

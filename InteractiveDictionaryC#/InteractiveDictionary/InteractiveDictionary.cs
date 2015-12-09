@@ -19,7 +19,7 @@ namespace InteractiveDictionary
 
             searchComboBox.SelectedText = string.Empty;
             char msg = (char)interac.returnTest();
-            searchComboBox.ValueMember = msg.ToString();
+            searchComboBox.Items.Add(msg.ToString());
         }
 
         private void àProposToolStripMenuItem_Click(object sender, EventArgs e)
@@ -38,9 +38,20 @@ namespace InteractiveDictionary
             Form.ActiveForm.Close();
         }
 
-        private void searchComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void InteractiveDictionary_Load(object sender, EventArgs e)
         {
+            // Define the border style of the form to a dialog box.
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
 
+            // Set the MaximizeBox to false to remove the maximize box.
+            this.MaximizeBox = false;
+
+            // Set the MinimizeBox to false to remove the minimize box.
+            this.MinimizeBox = false;
+
+            // Set the start position of the form to the center of the screen.
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
+
     }
 }

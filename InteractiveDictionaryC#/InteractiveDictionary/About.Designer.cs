@@ -77,7 +77,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(172, 149);
+            this.label6.Location = new System.Drawing.Point(172, 146);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(310, 17);
             this.label6.TabIndex = 12;
@@ -86,10 +86,10 @@
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = global::InteractiveDictionary.Properties.Resources.Dict21;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(153, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(154, 151);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

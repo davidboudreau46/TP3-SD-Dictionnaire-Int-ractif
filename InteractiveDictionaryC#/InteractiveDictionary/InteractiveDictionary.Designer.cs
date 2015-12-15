@@ -33,10 +33,15 @@
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.àProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.searchComboBox = new System.Windows.Forms.ComboBox();
+            this.aboutStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.searchBox = new System.Windows.Forms.ComboBox();
+            this.defBox = new System.Windows.Forms.TextBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -69,44 +74,71 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.àProposToolStripMenuItem});
+            this.aboutStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(28, 24);
             this.toolStripMenuItem1.Text = "?";
             // 
-            // àProposToolStripMenuItem
+            // aboutStripMenuItem
             // 
-            this.àProposToolStripMenuItem.Name = "àProposToolStripMenuItem";
-            this.àProposToolStripMenuItem.Size = new System.Drawing.Size(139, 24);
-            this.àProposToolStripMenuItem.Text = "À propos";
-            this.àProposToolStripMenuItem.Click += new System.EventHandler(this.àProposToolStripMenuItem_Click);
+            this.aboutStripMenuItem.Name = "aboutStripMenuItem";
+            this.aboutStripMenuItem.Size = new System.Drawing.Size(175, 24);
+            this.aboutStripMenuItem.Text = "À propos";
+            this.aboutStripMenuItem.Click += new System.EventHandler(this.aboutStripMenuItem_Click);
             // 
-            // label1
+            // groupBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(43, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 17);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Recherche";
+            this.groupBox1.Controls.Add(this.searchBox);
+            this.groupBox1.Location = new System.Drawing.Point(12, 31);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(298, 51);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Recherche";
             // 
-            // searchComboBox
+            // groupBox2
             // 
-            this.searchComboBox.FormattingEnabled = true;
-            this.searchComboBox.Location = new System.Drawing.Point(46, 74);
-            this.searchComboBox.Name = "searchComboBox";
-            this.searchComboBox.Size = new System.Drawing.Size(236, 24);
-            this.searchComboBox.TabIndex = 3;
+            this.groupBox2.Controls.Add(this.vScrollBar1);
+            this.groupBox2.Controls.Add(this.defBox);
+            this.groupBox2.Location = new System.Drawing.Point(12, 88);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(298, 141);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Définition";
+            // 
+            // searchBox
+            // 
+            this.searchBox.FormattingEnabled = true;
+            this.searchBox.Location = new System.Drawing.Point(6, 21);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(286, 24);
+            this.searchBox.TabIndex = 7;
+            // 
+            // defBox
+            // 
+            this.defBox.Enabled = false;
+            this.defBox.Location = new System.Drawing.Point(6, 21);
+            this.defBox.Multiline = true;
+            this.defBox.Name = "defBox";
+            this.defBox.Size = new System.Drawing.Size(286, 114);
+            this.defBox.TabIndex = 7;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(268, 23);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(22, 110);
+            this.vScrollBar1.TabIndex = 8;
             // 
             // InteractiveDictionary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(322, 377);
-            this.Controls.Add(this.searchComboBox);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(322, 241);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -117,6 +149,9 @@
             this.Load += new System.EventHandler(this.InteractiveDictionary_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,9 +162,12 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fichierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem àProposToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem aboutStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem;
-        private System.Windows.Forms.ComboBox searchComboBox;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox searchBox;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox defBox;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }

@@ -14,10 +14,12 @@ InteractiveDictionaryCLR::InteractiveDictionaryCLR::InteractiveDictionaryCLR(){
 //	delete _InteractiveDictionary;
 //}
 
-void InteractiveDictionaryCLR::InteractiveDictionaryCLR::test(){
-	_test = _InteractiveDictionary->getTest();
-}
-
-char InteractiveDictionaryCLR::InteractiveDictionaryCLR::returnTest(){
-	return _InteractiveDictionary->getTest();
+String^ InteractiveDictionaryCLR::InteractiveDictionaryCLR::search(String^ word){
+	
+	using System::Runtime::InteropServices::Marshal;
+	const char* cstr = (const char*)(Marshal::StringToHGlobalAnsi(word)).ToPointer();
+	std::string stdWord = cstr;
+	std::string search = _InteractiveDictionary->search(stdWord);
+	String^ str_dotnet = gcnew String(search.c_str());
+	return str_dotnet;
 }

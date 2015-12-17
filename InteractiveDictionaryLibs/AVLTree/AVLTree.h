@@ -17,6 +17,7 @@ private:
 		TreeElement* _element;
 	};
 	Node* _root;
+	void ClearTree(Node* node);
 
 public:
 	AVLTree();

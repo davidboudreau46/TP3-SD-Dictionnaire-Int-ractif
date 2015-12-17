@@ -12,14 +12,14 @@ namespace InteractiveDictionary
 {
     public partial class InteractiveDictionary: Form
     {
+
+        private InteractiveDictionaryCLR.InteractiveDictionaryCLR _interac { get ; set; }
+
         public InteractiveDictionary()
         {
             InitializeComponent();
-            InteractiveDictionaryCLR.InteractiveDictionaryCLR interac = new InteractiveDictionaryCLR.InteractiveDictionaryCLR();
+            _interac = new InteractiveDictionaryCLR.InteractiveDictionaryCLR();
 
-            searchComboBox.SelectedText = string.Empty;
-            char msg = (char)interac.returnTest();
-            searchComboBox.ValueMember = msg.ToString();
         }
 
         private void àProposToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,6 +41,14 @@ namespace InteractiveDictionary
         private void searchComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void searchComboBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            searchComboBox.Items.Clear();
+            searchComboBox.SelectedText = string.Empty;
+            string msg = _interac.search(searchComboBox.SelectedText);
+            searchComboBox.Items.Add(msg);
         }
     }
 }

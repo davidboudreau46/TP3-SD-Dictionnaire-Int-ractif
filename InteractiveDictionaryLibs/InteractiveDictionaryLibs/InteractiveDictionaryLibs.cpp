@@ -4,6 +4,7 @@
 
 InteractiveDictionaryLibs::InteractiveDictionaryLibs()
 {
+	//_AVLTree = new AVLTree();
 }
 
 
@@ -11,8 +12,8 @@ InteractiveDictionaryLibs::~InteractiveDictionaryLibs()
 {
 }
 
-char InteractiveDictionaryLibs::getTest()
+std::string InteractiveDictionaryLibs::search(std::string word)
 {
-	char test = 'Z';
-	return test;
+	
+	return "vidange";
 }

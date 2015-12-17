@@ -1,20 +1,9 @@
-﻿Build started 2015-12-08 9:59:49 AM.
-     1>Project "C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\AVLTreeTest\AVLTreeTest.vcxproj" on node 4 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\AVLTreeTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\AVLTreeTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
-         unittest1.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.lib" /MACHINE:X86 /SAFESEH /DLL Release\stdafx.obj
-         Release\unittest1.obj
-     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
-            Creating library C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.lib and object C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.exp
-         Generating code
-         Finished generating code
-         AVLTreeTest.vcxproj -> C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.dll
-     1>Done Building Project "C:\Users\David\Dropbox\Cegep Automne 2015\Structure de donnée\TP3\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\AVLTreeTest\AVLTreeTest.vcxproj" (Build target(s)).
+﻿La génération a démarré 17/déc./2015 18:13:07.
+     1>Projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\AVLTreeTest\AVLTreeTest.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         AVLTreeTest.vcxproj -> C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\Release\AVLTreeTest.dll
+     1>Génération du projet "C:\Users\Étienne\OneDrive\GitHub\TP3-SD-Dictionnaire-Interactif\InteractiveDictionaryLibs\AVLTreeTest\AVLTreeTest.vcxproj" terminée (Build cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:04.34
+Temps écoulé 00:00:00.10

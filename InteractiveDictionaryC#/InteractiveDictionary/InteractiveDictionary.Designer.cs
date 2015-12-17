@@ -98,6 +98,7 @@
             this.searchComboBox.Size = new System.Drawing.Size(200, 24);
             this.searchComboBox.TabIndex = 3;
             this.searchComboBox.SelectedIndexChanged += new System.EventHandler(this.searchComboBox_SelectedIndexChanged);
+            this.searchComboBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchComboBox_KeyPress);
             // 
             // InteractiveDictionary
             // 

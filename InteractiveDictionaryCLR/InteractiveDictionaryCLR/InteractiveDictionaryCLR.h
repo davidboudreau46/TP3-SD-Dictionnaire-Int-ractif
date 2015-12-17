@@ -1,6 +1,7 @@
 // InteractiveDictionaryCLR.h
 
 #pragma once
+#include <string>
 
 using namespace System;
 
@@ -13,12 +14,13 @@ namespace InteractiveDictionaryCLR {
 		InteractiveDictionaryCLR();
 		//~­InteractiveDictionaryCLR();
 
-		void test();
-		char returnTest();
+		String^ search(String^ word);
+		
 		// TODO: ajoutez ici vos méthodes pour cette classe.
 
 	private:
 		InteractiveDictionaryLibs* _InteractiveDictionary;
 		char _test;
 	};
+
 }

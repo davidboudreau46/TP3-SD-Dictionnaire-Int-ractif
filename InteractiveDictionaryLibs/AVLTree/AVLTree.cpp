@@ -10,7 +10,7 @@ AVLTree::AVLTree()
 
 AVLTree::~AVLTree()
 {
-	//remove(_root);
+	ClearTree(_root);
 }
 
 void AVLTree::add(TreeElement* treeElement)

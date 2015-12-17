@@ -12,5 +12,4 @@ Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619
 Class InteractiveDictionaryCLR.InteractiveDictionaryCLR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
-    test(): PrivateScope, Public, HideBySig
-    returnTest(): PrivateScope, Public, HideBySig
+    search(String): PrivateScope, Public, HideBySig

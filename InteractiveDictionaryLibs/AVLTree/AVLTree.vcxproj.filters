@@ -16,6 +16,9 @@
     <Filter Include="Fichiers d%27en-tête\Interfaces">
       <UniqueIdentifier>{5fd23414-d5c3-40ac-bef6-07bd98630616}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Execption">
+      <UniqueIdentifier>{2d047517-c7bc-4b60-a985-05f94a1a9bcf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -24,22 +27,22 @@
     <ClInclude Include="TreeElement.h">
       <Filter>Fichiers d%27en-tête\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="add_element_already_existing.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="AVLTree.h">
       <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AddElementAlreadyExistingException.h">
+      <Filter>Execption</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Fichiers de ressources</Filter>
     </ClCompile>
-    <ClCompile Include="add_element_already_existing.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="AVLTree.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AddElementAlreadyExistingException.cpp">
+      <Filter>Execption</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

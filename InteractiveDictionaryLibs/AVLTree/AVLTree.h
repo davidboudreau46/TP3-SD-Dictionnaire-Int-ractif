@@ -1,7 +1,7 @@
 #pragma once
 #include <stdio.h>
 #include "TreeElement.h"
-#include "add_element_already_existing.h"
+#include "AddElementAlreadyExistingException.h"
 
 class AVLTree
 {
@@ -15,15 +15,19 @@ private:
 		Node* _parent;
 		int* _height;
 		TreeElement* _element;
+		char balance;
 	};
 	Node* _root;
 	void ClearTree(Node* node);
+	void balanceAVLTree(Node* node, Node* newNode);
+	void adjustBalance(Node* root, Node* newNode);
+	void rotateLeft(Node* node);
+	void rotateRight(Node* node);
+	void adjustLeftRight(Node* end, Node* start);
+	void adjustRightLeft(Node* end, Node* start);
 
 public:
 	AVLTree();
 	~AVLTree();
 	void add(TreeElement* treeElement);
-	void addBranch(TreeElement* treeElement, Node* node);
-
-
 };
